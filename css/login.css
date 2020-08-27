@@ -1,0 +1,124 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+i,em{font-style: normal;}
+b,strong{font-weight: normal;}
+h1,h2,h3,h4,h5,h6{font-size: 16px; font-weight: normal;}
+img{vertical-align: middle; border: none;}
+.logo{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 34px;
+}
+.logo img{
+    height:30px;
+    width: 130px;
+}
+
+.center{
+    width: 570px;
+    height: 800px;
+    margin: 0 auto;
+    box-shadow: 2px 0 46px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-top: 38px;
+}
+.center h1{
+    font-size: 46px;
+    font-weight: bold;
+    padding-top: 36px;
+    margin-left:108px;
+}
+.center .login{
+    width: 400px;
+    height: 642px;
+
+    margin-left: 108px;
+    margin-top: 20px;
+}
+.login_1 h4{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.login_1 input{
+height: 50px;
+line-height: 50px;
+font-size: 18px;
+border: 1px solid #d4d4d4;
+display: block;
+width: 95%;
+border-radius: 5px;
+outline: none;
+padding-left: 15px;
+}
+
+.login_2 h4{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.login_2 input{
+height: 50px;
+line-height: 50px;
+font-size: 18px;
+border: 1px solid #d4d4d4;
+display: block;
+width: 95%;
+border-radius: 5px;
+outline: none;
+padding-left: 15px;
+}
+.login a{
+    border-bottom: 1px solid black;
+    color: black;
+    display: inline-block;
+    padding-top: 14px;
+}
+.login button{
+    width: 95%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    outline: none;
+    margin-top: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.login_3 a{
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+    padding-top: 30px;
+    margin-left:118px;
+    border-bottom: 1px solid black;
+}
+.login span{
+    display: block;
+    border-bottom:1px solid #cccccc;
+    margin-top:36px;
+}
+.login h3{
+    padding-top:30px;
+    font-size: 18px;
+    margin-left:118px;
+}
+.login ul{
+    width: 95%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.login ul li{
+    float: left;
+    padding:8px 38px;
+    text-decoration: none;
+}
+.login .login_4{
+    padding: 26px 30px;
+    color: black;
+}

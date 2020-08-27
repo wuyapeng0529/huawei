@@ -1,0 +1,1 @@
+"use strict";$(function(){$(".oul_1 li").mouseover(function(){$(this).children("span").show()}),$(".oul_1 li").mouseout(function(){$(this).children("span").hide()})});

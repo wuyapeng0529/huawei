@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="../img/img12/1.png">
+    </div>
+    <div class="center">
+        <h1>登录华为账号</h1>
+        <div class="login">
+            <div class="login_1">
+                <h4>账号/邮箱*</h4>
+                <input type="text" id="zhanghao" placeholder="请输入账号/邮箱">
+            </div>
+            <div class="login_2">
+                <h4>密码*</h4>
+                <input type="text" id="mima" placeholder="请输入密码">
+            </div>
+            <a href="">忘记密码</a>
+            <button>登录华为账号</button>
+            <div class="login_3">
+                <a href="" class="zhuce">立即注册华为账号></a>
+            </div>
+            <span></span>
+            <h3>其他方式登录:</h3>
+            <ul>
+                <li><img src="../img/img12/4.jpg"></li>
+                <li><img src="../img/img12/5.jpg"></li>
+                <li><img src="../img/img12/6.jpg"></li>
+            </ul>
+            <div class="login_4">
+                <img src="../img/img12/7.jpg"><a href="">获取更多帮助？</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+<script>
+    $(function () {
+
+        $("button").click(function () {
+            $.ajax({
+                url: "../php/login.php",
+
+                type: "get",
+                data: "zhanghao=" + $("#zhanghao").val() + "&mima=" + $("#mima").val(),
+                success: function (resText) {
+                    console.log(resText);
+                    if (resText == "账号未注册") {
+                    let login1 = localStorage.getItem('login1');
+					 login1=0;
+					 localStorage.setItem('login1', login1);
+                        alert("账号未注册");
+                    } else if (resText == "登录成功") {
+                        let login1 = localStorage.getItem('login1');
+                        let login = localStorage.getItem('login');
+                        login = $("#zhanghao").val();
+                        login1 = 1;
+                        localStorage.setItem('login', login);
+                        localStorage.setItem('login1', login1);
+                        window.open("homePage.html");
+                    }
+                }
+            });
+
+        })
+
+        $(".zhuce").click(function(){
+            window.open("registered.html");
+        })
+    })
+</script>

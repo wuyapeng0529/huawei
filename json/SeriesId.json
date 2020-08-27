@@ -1,0 +1,37 @@
+[
+    {
+        "categoryId": 1,
+        "detail": "详情暂略",
+        "id": 1,
+        "name": "HUAWEI P40 Pro+ 5G 全网通 8GB+256GB（陶瓷白）",
+        "price": 7988,
+        "sales": 200,
+        "seriesId": 1,
+        "stock": 500,
+        "subtitle": "麒麟990 5G SoC芯片，纳米微晶陶瓷工艺，5000万超感知徕卡五摄，100倍双目变焦，华为5G全网通旗舰手机",
+        "thumbnail": "../img/img4/3.png"
+    },
+    {
+        "categoryId": 1,
+        "detail": "详情暂略",
+        "id": 2,
+        "name": "HUAWEI P40 Pro 5G 全网通 8GB+128GB（零度白）",
+        "price": 5988,
+        "sales": 350,
+        "seriesId": 1,
+        "stock": 600,
+        "subtitle": "麒麟990 5G SoC芯片 5000万超感知徕卡四摄 50倍数字变焦 全网通5G手机",
+        "thumbnail": "../img/img4/4.png"
+    },
+    {
+        "categoryId": 1,
+        "id": 3,
+        "name": "HUAWEI P40 5G 全网通 6GB+128GB（零度白）",
+        "price": 4188,
+        "sales": 300,
+        "seriesId": 1,
+        "stock": 520,
+        "subtitle": "麒麟990 5G SoC芯片 5000万超感知徕卡三摄 30倍数字变焦 全网通5G手机",
+        "thumbnail": "../img/img4/3.png"
+    }
+]

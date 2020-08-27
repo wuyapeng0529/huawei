@@ -1,0 +1,1 @@
+"use strict";$(function(){var n=0,t=0;function c(c){t=c?0==n?n=0:-400*--n:7==n?-400*(n=7):-400*++n,$(".electronic_num").animate({left:t},500)}$(".electronic-left").click(function(){c(!0)}),$(".electronic-right").click(function(){c(!1)})});

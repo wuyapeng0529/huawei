@@ -1,0 +1,1 @@
+"use strict";$(".six_left").click(function(){$(".six_num").animate({left:-238,top:0})}),$(".six_right").click(function(){$(".six_num").animate({left:0,top:0})});
